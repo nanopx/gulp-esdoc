@@ -3,7 +3,7 @@ Gulp plugin for [ESDoc](https://esdoc.org/)
 
 ## Installation
 
-** !! not published in npm yet **
+** not published in npm yet **
 
 ```
 npm install gulp-esdoc --save-dev
