@@ -26,5 +26,13 @@ gulp.src("./src")
 `options.destination` is **required**.
 See [here](https://esdoc.org/config.html) for more options.
 
+# Tests
+
+Run:
+
+```
+npm test
+```
+
 ## License
 MIT

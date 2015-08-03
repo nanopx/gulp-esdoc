@@ -32,7 +32,7 @@
     "should": "^7.0.2"
   },
   "dependencies": {
-    "esdoc": "^0.1.4",
+    "esdoc": "^0.2.0",
     "gulp-util": "^3.0.6",
     "through2": "^2.0.0"
   }
