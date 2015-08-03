@@ -1,0 +1,39 @@
+{
+  "name": "gulp-esdoc",
+  "version": "1.0.0",
+  "description": "Gulp plugin for ESDoc",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanopx/gulp-esdoc.git"
+  },
+  "keywords": [
+    "gulp",
+    "plugin",
+    "esdoc",
+    "ES6",
+    "documentation"
+  ],
+  "author": "nanopx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nanopx/gulp-esdoc/issues"
+  },
+  "homepage": "https://github.com/nanopx/gulp-esdoc#readme",
+  "devDependencies": {
+    "event-stream": "^3.3.1",
+    "mocha": "^2.2.5",
+    "should": "^7.0.2"
+  },
+  "dependencies": {
+    "esdoc": "^0.1.4",
+    "gulp-util": "^3.0.6",
+    "through2": "^2.0.0"
+  }
+}
