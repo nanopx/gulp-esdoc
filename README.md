@@ -1,9 +1,11 @@
 # gulp-esdoc
 Gulp plugin for [ESDoc](https://esdoc.org/)
 
-## Installation
+[![NPM](https://nodei.co/npm/gulp-esdoc.png)](https://npmjs.org/package/gulp-esdoc)
 
-**not published in npm yet**
+[![Circle CI](https://circleci.com/gh/nanopx/gulp-esdoc.svg?style=shield&circle-token=bed625bfea8a6be44a43f8455b2db0b51b5984a1)](https://circleci.com/gh/nanopx/gulp-esdoc)
+
+## Installation
 
 ```
 npm install gulp-esdoc --save-dev
