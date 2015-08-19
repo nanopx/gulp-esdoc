@@ -1,6 +1,6 @@
 {
   "name": "gulp-esdoc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Gulp plugin for ESDoc",
   "main": "index.js",
   "directories": {
@@ -32,7 +32,7 @@
     "should": "^7.0.2"
   },
   "dependencies": {
-    "esdoc": "^0.2.0",
+    "esdoc": "^0.2.1",
     "gulp-util": "^3.0.6",
     "through2": "^2.0.0"
   }
