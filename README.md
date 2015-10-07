@@ -18,7 +18,7 @@ var esdoc = require("gulp-esdoc");
 
 // document "./src" folder and output at "./docs" folder
 gulp.src("./src")
-  .pipe(esdoc({ destination: "./docs" });
+  .pipe(esdoc({ destination: "./docs" }));
 ```
 
 ## API
