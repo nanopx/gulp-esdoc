@@ -14,7 +14,6 @@ function gulpESDoc(config) {
         data;
 
     if (fs.existsSync(cfgPath)) {
-      console.log('exists');
       data = fs.readFileSync(cfgPath, { encoding: 'utf8' });
       config = !data ? {} : JSON.parse(data);
     } else {
