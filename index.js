@@ -2,13 +2,25 @@ var through = require('through2');
 var ESDoc = require('esdoc');
 var publisher = require('esdoc/out/src/Publisher/publish');
 var gutil = require('gulp-util');
-var PluginError = gutil.PluginError;
+
+var fs = require('fs'),
+    path = require('path');
 
 const PLUGIN_NAME = 'gulp-esdoc';
 
 function gulpESDoc(config) {
+  if (!config) {
+    var cfgPath = path.join(process.cwd(), 'esdoc.json'),
+        data;
 
-  if (!config) config = {};
+    if (fs.existsSync(cfgPath)) {
+      console.log('exists');
+      data = fs.readFileSync(cfgPath, { encoding: 'utf8' });
+      config = !data ? {} : JSON.parse(data);
+    } else {
+      config  = {};
+    }
+  }
 
   var transform = function(file, encode, callback) {
 
@@ -30,11 +42,11 @@ function gulpESDoc(config) {
   var flush = function(callback) {
     ESDoc.generate(config, publisher);
     callback();
-  }
+  };
 
   return through.obj(transform, flush);
 
-};
+}
 
 // Export
 module.exports = gulpESDoc;
