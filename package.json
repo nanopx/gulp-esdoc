@@ -27,13 +27,13 @@
   },
   "homepage": "https://github.com/nanopx/gulp-esdoc#readme",
   "devDependencies": {
-    "event-stream": "^3.3.1",
-    "mocha": "^2.2.5",
-    "should": "^7.0.2"
+    "event-stream": "^3.3.4",
+    "mocha": "^3.0.2",
+    "should": "^10.0.0"
   },
   "dependencies": {
-    "esdoc": "^0.4.3",
-    "gulp-util": "^3.0.6",
-    "through2": "^2.0.0"
+    "esdoc": "^0.4.8",
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1"
   }
 }
