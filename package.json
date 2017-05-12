@@ -1,6 +1,6 @@
 {
   "name": "gulp-esdoc",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Gulp plugin for ESDoc",
   "main": "index.js",
   "directories": {
