@@ -1,6 +1,5 @@
 var through = require('through2');
 var ESDoc = require('esdoc').default;
-var publisher = require('esdoc/out/src/Publisher/publish').default;
 var gutil = require('gulp-util');
 
 var fs = require('fs'),
@@ -39,7 +38,7 @@ function gulpESDoc(config) {
   };
 
   var flush = function(callback) {
-    ESDoc.generate(config, publisher);
+    ESDoc.generate(config);
     callback();
   };
 
