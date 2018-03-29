@@ -26,7 +26,7 @@ gulp.src("./src")
 ### esdoc(options)
 
 `options.destination` is **required**.
-See [here](https://esdoc.org/manual/configuration/config.html#full-config) for more options.
+See [here](https://esdoc.org/manual/config.html#full-config) for more options.
 
 # Tests
 
